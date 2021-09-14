@@ -48,10 +48,7 @@ function App() {
       </main>
 
       <footer>
-        <Tile
-          title='The Brand'
-          text='Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto eaque autem sint sit quae sed, enim doloremque amet accusantium, adipisci iure expedita molestiae natus, reprehenderit aliquid rerum voluptatem dolor non?'
-        />
+        <Tile title='The Brand' />
         <Tile
           title='Our Story'
           text='Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto eaque autem sint sit quae sed, enim doloremque amet accusantium, adipisci iure'

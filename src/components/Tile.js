@@ -9,7 +9,7 @@ const Tile = function ({ title, text, imgsrc }) {
     return (
       <section>
         <h2>{title}</h2>
-        <p>{text}</p>
+        {text ? <p>{text}</p> : false}
       </section>
     );
   }
