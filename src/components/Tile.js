@@ -1,4 +1,6 @@
 const Tile = function ({ title, text, imgsrc }) {
+  const paragraphs = text.split('\r');
+
   if (imgsrc) {
     return (
       <section>
@@ -9,7 +11,7 @@ const Tile = function ({ title, text, imgsrc }) {
     return (
       <section>
         <h2>{title}</h2>
-        {text ? <p>{text}</p> : false}
+        {text ? paragraphs.map((p, index) => <p key={index}>{p}</p>) : false}
       </section>
     );
   }
